@@ -48,7 +48,7 @@ fi
 
 nix-channel --add https://github.com/nix-community/home-manager/archive/master.tar.gz home-manager
 nix-channel --update
-curl https://raw.githubusercontent.com/MossTeK/nixos-nixPlex/main/configuration.nix > /mnt/etc/nixos/configuration.nix
+curl https://raw.githubusercontent.com/MossTeK/nixPlex/main/configuration.nix > /mnt/etc/nixos/configuration.nix
 
 #reboot nix instance
 nixos-rebuild switch
